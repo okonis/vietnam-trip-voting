@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Vietnam Trip Voting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">🇻🇳 STYCZEŃ • 14 DNI</p>
+    <h1>Vietnam Trip Voting</h1>
+    <p>Wybierzcie miejsca i aktywności. Głosowanie + komentarze + mapa pomogą złożyć sensowną trasę.</p>
+    <div class="name-box">
+      <label for="voter">Twoje imię</label>
+      <input id="voter" placeholder="np. Mateusz">
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="stats">
+    <article><span>🔥 Must see</span><strong id="mustCount">0</strong></article>
+    <article><span>📍 Głosowane miejsca</span><strong id="selectedCount">0</strong></article>
+    <article><span>⏱ Suma dni</span><strong id="daysCount">0</strong></article>
+    <article><span>🗳 Głosów</span><strong id="voteCount">0</strong></article>
+  </section>
+
+  <section class="panel">
+    <div class="toolbar">
+      <div class="filters">
+        <button class="active" data-filter="Wszystko">Wszystko</button>
+        <button data-filter="Miasta">🏙️ Miasta</button>
+        <button data-filter="Natura">🌿 Natura</button>
+        <button data-filter="Sport">🏄 Sport</button>
+      </div>
+      <select id="sort">
+        <option value="region">Sortuj: region</option>
+        <option value="score">Sortuj: wynik</option>
+        <option value="days">Sortuj: czas</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <div class="section-title">
+      <div><h2>Mapa</h2><p>Kliknij marker, aby przejść do karty miejsca.</p></div>
+    </div>
+    <div id="map"></div>
+  </section>
+
+  <section>
+    <div class="section-title">
+      <div><h2>Miejsca i aktywności</h2><p>🔥 3 pkt • 👍 2 pkt • 🤷 1 pkt • ❌ 0 pkt</p></div>
+    </div>
+    <div id="cards" class="cards"></div>
+  </section>
+
+  <section class="panel ranking">
+    <h2>🏆 Ranking grupy</h2>
+    <div id="ranking"></div>
+  </section>
+
+  <section class="panel route">
+    <h2>🧭 Czy to mieści się w 14 dniach?</h2>
+    <p id="routeNote">Zacznijcie głosować. System oszacuje obciążenie planu.</p>
+    <button id="suggestRoute">Zaproponuj trasę z top miejsc</button>
+    <div id="routeResult"></div>
+  </section>
+</main>
+
+<footer class="wrap footer">Vietnam Trip Voting • wspólny plan wyjazdu</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
