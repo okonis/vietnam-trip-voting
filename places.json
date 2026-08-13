@@ -1,0 +1,409 @@
+[
+  {
+    "id": "hanoi",
+    "name": "Hanoi",
+    "category": "Miasta",
+    "region": "Północ",
+    "days": 2,
+    "lat": 21.0285,
+    "lng": 105.8542,
+    "image": "https://images.unsplash.com/photo-1509030450996-dd1a26dda07a?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Najlepsze wejście w Wietnam: labirynt Old Quarter, jezioro Hoan Kiem, Świątynia Literatury, kolonialna architektura, targi i morze skuterów. Warto nie tylko zwiedzać, ale zrobić wieczorny street-food crawl, wypić egg coffee i bia hoi oraz zobaczyć teatr lalek na wodzie.",
+    "tags": [
+      "street food",
+      "kawa",
+      "kultura",
+      "nocne życie"
+    ]
+  },
+  {
+    "id": "hagiang",
+    "name": "Ha Giang Loop",
+    "category": "Natura",
+    "region": "Północ",
+    "days": 3.5,
+    "lat": 22.8233,
+    "lng": 104.9836,
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Jedna z najbardziej spektakularnych tras w Azji: przełęcze, kanion Tu San, Ma Pi Leng, krasowe płaskowyże i małe wioski. Na 3–4 dni; można jechać jako pasażer z easy riderem. W styczniu będzie chłodno, szczególnie rano i wieczorem.",
+    "tags": [
+      "motocykl",
+      "góry",
+      "easy rider",
+      "WOW"
+    ]
+  },
+  {
+    "id": "sapa",
+    "name": "Sa Pa + Fansipan",
+    "category": "Natura",
+    "region": "Północ",
+    "days": 2,
+    "lat": 22.3364,
+    "lng": 103.8438,
+    "image": "https://images.unsplash.com/photo-1504457047772-27faf1c00561?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Górskie doliny, tarasy ryżowe i trekking między wioskami mniejszości etnicznych. Fansipan (3143 m), najwyższy szczyt Indochin, można zdobyć trekkingiem albo kolejką. Zimą widoki bywają mgliste — traktowałbym jako alternatywę dla Ha Giang.",
+    "tags": [
+      "trekking",
+      "Fansipan",
+      "tarasy",
+      "góry"
+    ]
+  },
+  {
+    "id": "bangioc",
+    "name": "Ban Gioc + Cao Bang",
+    "category": "Natura",
+    "region": "Północ",
+    "days": 2,
+    "lat": 22.8537,
+    "lng": 106.723,
+    "image": "https://images.unsplash.com/photo-1513415564515-763d91423bdd?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Potężny wielopoziomowy wodospad na granicy z Chinami, otoczony wapiennymi wzgórzami. Można połączyć z jaskinią Nguom Ngao i road tripem przez prowincję Cao Bang. Piękne, ale wymaga dodatkowego czasu na dojazd z Hanoi.",
+    "tags": [
+      "wodospad",
+      "road trip",
+      "offbeat"
+    ]
+  },
+  {
+    "id": "ninhbinh",
+    "name": "Ninh Binh / Trang An",
+    "category": "Natura",
+    "region": "Północ",
+    "days": 1.5,
+    "lat": 20.2506,
+    "lng": 105.9745,
+    "image": "https://images.unsplash.com/photo-1599708153386-62bf3f035260?auto=format&fit=crop&w=1200&q=80",
+    "desc": "„Ha Long Bay na lądzie”. Łódź w Trang An przepływa pod wapiennymi skałami i przez jaskinie; do tego rower przez pola i wejście po ok. 500 stopniach na Hang Mua. Bardzo mocny punkt przy niewielkim koszcie logistycznym.",
+    "tags": [
+      "łódź",
+      "rower",
+      "Hang Mua",
+      "UNESCO"
+    ]
+  },
+  {
+    "id": "halong",
+    "name": "Ha Long Bay / Lan Ha Bay",
+    "category": "Natura",
+    "region": "Północ",
+    "days": 1.5,
+    "lat": 20.9101,
+    "lng": 107.1839,
+    "image": "https://images.unsplash.com/photo-1521993117367-b7f70ccd029d?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Klasyczny krajobraz Wietnamu: setki wapiennych wysp wyrastających z zatoki. Najlepsze doświadczenie to rejs z noclegiem, kajaki, jaskinie i wschód słońca na wodzie. Lan Ha bywa spokojniejszą alternatywą dla głównej części Ha Long.",
+    "tags": [
+      "rejs",
+      "kajaki",
+      "noc na łodzi"
+    ]
+  },
+  {
+    "id": "catba",
+    "name": "Cat Ba",
+    "category": "Natura",
+    "region": "Północ",
+    "days": 2,
+    "lat": 20.727,
+    "lng": 107.048,
+    "image": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Wyspa będąca świetną bazą do Lan Ha Bay. Oprócz łodzi i kajaków ma park narodowy, trekking, punkty widokowe i bardziej backpackerski klimat niż klasyczny rejs po Ha Long.",
+    "tags": [
+      "wyspa",
+      "trekking",
+      "kajaki"
+    ]
+  },
+  {
+    "id": "phongnha",
+    "name": "Phong Nha-Ke Bang",
+    "category": "Sport",
+    "region": "Centrum",
+    "days": 2,
+    "lat": 17.5904,
+    "lng": 106.283,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Jeden z najważniejszych regionów jaskiniowych świata. Od łatwej Paradise Cave po wyprawy przez dżunglę, rzeki podziemne, błoto i noclegi w jaskiniach. Dla aktywnej ekipy może być ciekawszy niż kolejny dzień zwiedzania miasta.",
+    "tags": [
+      "jaskinie",
+      "trekking",
+      "dżungla",
+      "adventure"
+    ]
+  },
+  {
+    "id": "hue",
+    "name": "Hue",
+    "category": "Miasta",
+    "region": "Centrum",
+    "days": 1.5,
+    "lat": 16.4637,
+    "lng": 107.5909,
+    "image": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Dawna stolica cesarska dynastii Nguyen. Cytadela, Zakazane Miasto, monumentalne grobowce nad Perfume River i jedna z najbardziej charakterystycznych kuchni regionalnych kraju. Dobre dla historii i jedzenia.",
+    "tags": [
+      "cytadela",
+      "historia",
+      "kuchnia Hue"
+    ]
+  },
+  {
+    "id": "danang",
+    "name": "Da Nang",
+    "category": "Miasta",
+    "region": "Centrum",
+    "days": 1,
+    "lat": 16.0544,
+    "lng": 108.2022,
+    "image": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Nowoczesne nadmorskie miasto i świetny hub transportowy. My Khe Beach, Dragon Bridge, seafood i łatwy dostęp do Hoi An, Marble Mountains oraz przełęczy Hai Van. Nie musi być osobną bazą, ale logistycznie jest bardzo użyteczne.",
+    "tags": [
+      "plaża",
+      "seafood",
+      "hub"
+    ]
+  },
+  {
+    "id": "haivan",
+    "name": "Hai Van Pass",
+    "category": "Sport",
+    "region": "Centrum",
+    "days": 0.5,
+    "lat": 16.2,
+    "lng": 108.13,
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Widokowa przełęcz między Hue i Da Nang, gdzie góry wpadają do morza. Świetny półdniowy przejazd skuterem lub z kierowcą; można potraktować go jako samą podróż między miastami zamiast zwykłego transferu.",
+    "tags": [
+      "skuter",
+      "road trip",
+      "widoki"
+    ]
+  },
+  {
+    "id": "marble",
+    "name": "Marble Mountains",
+    "category": "Natura",
+    "region": "Centrum",
+    "days": 0.5,
+    "lat": 16.0036,
+    "lng": 108.263,
+    "image": "https://images.unsplash.com/photo-1533669955142-6a73332af4db?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Wapienne wzgórza między Da Nang i Hoi An kryją pagody, jaskinie i punkty widokowe. Łatwo dorzucić je po drodze, więc są dobrym „bonusem”, który nie rozwala planu 14 dni.",
+    "tags": [
+      "jaskinie",
+      "pagody",
+      "widok"
+    ]
+  },
+  {
+    "id": "hoian",
+    "name": "Hoi An",
+    "category": "Miasta",
+    "region": "Centrum",
+    "days": 2,
+    "lat": 15.8801,
+    "lng": 108.338,
+    "image": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Historyczny port handlowy z żółtymi kamienicami i tysiącami lampionów. Najlepiej działa jako miks: stare miasto wieczorem, rower po polach, targ, cooking class, szycie ubrania na miarę i plaża An Bang.",
+    "tags": [
+      "lampiony",
+      "cooking class",
+      "rower",
+      "krawiec"
+    ]
+  },
+  {
+    "id": "myson",
+    "name": "My Son Sanctuary",
+    "category": "Natura",
+    "region": "Centrum",
+    "days": 0.5,
+    "lat": 15.7764,
+    "lng": 108.1233,
+    "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Ruiny hinduistycznych świątyń królestwa Champa ukryte w zielonej dolinie. Najłatwiejszy półdniowy wypad z Hoi An; ciekawy kontrast wobec buddyjskich i kolonialnych zabytków.",
+    "tags": [
+      "Champa",
+      "ruiny",
+      "UNESCO"
+    ]
+  },
+  {
+    "id": "nhatrang",
+    "name": "Nha Trang",
+    "category": "Sport",
+    "region": "Południe",
+    "days": 2,
+    "lat": 12.2388,
+    "lng": 109.1967,
+    "image": "https://images.unsplash.com/photo-1540202404-a2f29016b523?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Duży nadmorski kurort znany z plaż, wysp, seafoodu i nurkowania. Ma sens, jeśli grupa chce więcej czasu na wodzie, ale przy finale na Phu Quoc może być dublowaniem podobnych aktywności.",
+    "tags": [
+      "nurkowanie",
+      "plaża",
+      "wyspy"
+    ]
+  },
+  {
+    "id": "dalat",
+    "name": "Da Lat",
+    "category": "Natura",
+    "region": "Południe",
+    "days": 2,
+    "lat": 11.9404,
+    "lng": 108.4583,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Chłodniejsze górskie miasto wśród lasów sosnowych, plantacji kawy i wodospadów. Najciekawsza opcja to canyoning: zjazdy na linach, wodospady i skoki do naturalnych basenów. Zupełnie inny Wietnam niż wybrzeże.",
+    "tags": [
+      "canyoning",
+      "kawa",
+      "wodospady"
+    ]
+  },
+  {
+    "id": "muine",
+    "name": "Mui Ne",
+    "category": "Sport",
+    "region": "Południe",
+    "days": 1.5,
+    "lat": 10.9333,
+    "lng": 108.2833,
+    "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Nadmorska miejscowość słynąca z czerwonych i białych wydm oraz wiatru. Można zrobić sunrise jeep tour po wydmach, sandboarding, a przy dobrych warunkach kitesurfing.",
+    "tags": [
+      "wydmy",
+      "kitesurfing",
+      "jeep"
+    ]
+  },
+  {
+    "id": "hcmc",
+    "name": "Ho Chi Minh City / Sajgon",
+    "category": "Miasta",
+    "region": "Południe",
+    "days": 1.5,
+    "lat": 10.8231,
+    "lng": 106.6297,
+    "image": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Energetyczna metropolia kompletnie inna od Hanoi. War Remnants Museum, kolonialne centrum, Chinatown, rooftop bary, nocne życie i ogromna scena kulinarna. Dobra baza do Cu Chi i Delty Mekongu.",
+    "tags": [
+      "street food",
+      "rooftopy",
+      "historia"
+    ]
+  },
+  {
+    "id": "cuchi",
+    "name": "Tunele Cu Chi",
+    "category": "Natura",
+    "region": "Południe",
+    "days": 0.5,
+    "lat": 11.1419,
+    "lng": 106.4625,
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Rozbudowany system tuneli używany podczas wojny. Zwiedzanie daje fizyczne wyobrażenie o warunkach życia i walki pod ziemią. Najłatwiej połączyć z pobytem w Sajgonie.",
+    "tags": [
+      "historia",
+      "tunele",
+      "wojna"
+    ]
+  },
+  {
+    "id": "mekong",
+    "name": "Delta Mekongu",
+    "category": "Natura",
+    "region": "Południe",
+    "days": 1.5,
+    "lat": 10.0452,
+    "lng": 105.7469,
+    "image": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Świat kanałów, sadów tropikalnych, łodzi i miejscowości żyjących w rytmie rzeki. Najlepiej nie robić ekspresowej wycieczki „zaliczającej”, tylko przespać się w delcie i rano wypłynąć na wodę.",
+    "tags": [
+      "łodzie",
+      "owoce",
+      "lokalne życie"
+    ]
+  },
+  {
+    "id": "phuquoc",
+    "name": "Phu Quoc",
+    "category": "Sport",
+    "region": "Południe",
+    "days": 3.5,
+    "lat": 10.2899,
+    "lng": 103.984,
+    "image": "https://images.unsplash.com/photo-1540202404-a2f29016b523?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Najlepszy kandydat na finał styczniowej wyprawy: pora sucha, plaże, zachody słońca i archipelag An Thoi. Zaplanujcie osobno dzień scuba diving, dzień snorkeling/island hopping i przynajmniej jeden dzień bez planu.",
+    "tags": [
+      "scuba",
+      "snorkeling",
+      "plaża",
+      "island hopping"
+    ]
+  },
+  {
+    "id": "chamislands",
+    "name": "Cham Islands",
+    "category": "Sport",
+    "region": "Centrum",
+    "days": 1,
+    "lat": 15.95,
+    "lng": 108.5,
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Archipelag niedaleko Hoi An. Rejs, snorkeling i nurkowanie sprawiają, że można dołożyć dzień na wodzie bez podróży na drugi koniec kraju. Warunki zależą od pogody i morza.",
+    "tags": [
+      "nurkowanie",
+      "snorkeling",
+      "wyspy"
+    ]
+  },
+  {
+    "id": "quynhon",
+    "name": "Quy Nhon",
+    "category": "Natura",
+    "region": "Centrum",
+    "days": 2,
+    "lat": 13.782,
+    "lng": 109.219,
+    "image": "https://images.unsplash.com/photo-1540202404-a2f29016b523?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Mniej oczywiste wybrzeże: plaże, skaliste zatoki, rybacki klimat, seafood i ślady kultury Cham. Dobra opcja dla grupy, która chce zejść z najbardziej turystycznej osi Hoi An–Nha Trang.",
+    "tags": [
+      "offbeat",
+      "plaże",
+      "seafood"
+    ]
+  },
+  {
+    "id": "puluong",
+    "name": "Pu Luong",
+    "category": "Natura",
+    "region": "Północ",
+    "days": 2,
+    "lat": 20.4388,
+    "lng": 105.1324,
+    "image": "https://images.unsplash.com/photo-1504457047772-27faf1c00561?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Rezerwat z tarasami, górami, wioskami i homestayami, znacznie spokojniejszy niż Sa Pa. Dobry na trekking i wolniejszy kontakt z północnym Wietnamem; geograficznie można łączyć z Ninh Binh.",
+    "tags": [
+      "offbeat",
+      "homestay",
+      "trekking"
+    ]
+  },
+  {
+    "id": "condao",
+    "name": "Con Dao",
+    "category": "Sport",
+    "region": "Południe",
+    "days": 3,
+    "lat": 8.6833,
+    "lng": 106.6,
+    "image": "https://images.unsplash.com/photo-1540202404-a2f29016b523?auto=format&fit=crop&w=1200&q=80",
+    "desc": "Odległy archipelag z dzikszymi plażami, historią dawnych więzień i świetnym środowiskiem morskim. Bardziej kameralny niż Phu Quoc, ale styczniowy wiatr i morze mogą pogarszać warunki nurkowe — raczej alternatywa niż pewny finał.",
+    "tags": [
+      "wyspy",
+      "offbeat",
+      "nurkowanie"
+    ]
+  }
+]

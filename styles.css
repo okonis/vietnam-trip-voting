@@ -1,0 +1,39 @@
+
+:root{
+  --bg:#f6f7f5;--card:#fff;--text:#132019;--muted:#66736b;--accent:#176b4c;
+  --accent2:#e7f3ed;--border:#dfe6e1;--danger:#9a3b35;
+}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif}
+.wrap{width:min(1180px,calc(100% - 32px));margin:auto}.hero{padding:48px 0 34px;background:linear-gradient(135deg,#10241c,#176b4c);color:#fff}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.12em}.hero h1{font-size:clamp(36px,6vw,68px);margin:8px 0}.hero p{max-width:760px;color:#dcebe4}
+.name-box{margin-top:24px;display:grid;gap:7px;max-width:320px}.name-box input,select{border:1px solid var(--border);border-radius:12px;padding:12px;font:inherit}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0}.stats article,.panel{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:18px}
+.stats span{color:var(--muted);font-size:13px}.stats strong{display:block;font-size:28px;margin-top:6px}
+.toolbar{display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap}.filters{display:flex;gap:8px;flex-wrap:wrap}
+button{border:1px solid var(--border);background:#fff;color:var(--text);padding:10px 13px;border-radius:12px;cursor:pointer;font:inherit}
+button:hover,button.active{border-color:var(--accent);background:var(--accent2)}button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.section-title{display:flex;justify-content:space-between;align-items:end;margin:32px 0 12px}.section-title h2,.panel h2{margin:0 0 5px}.section-title p,.panel p{margin:0;color:var(--muted)}
+#map{height:460px;border-radius:18px;border:1px solid var(--border);overflow:hidden}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.place-card{background:var(--card);border:1px solid var(--border);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.place-card img{width:100%;height:210px;object-fit:cover;background:#e8ece9}.place-body{padding:16px;display:flex;flex-direction:column;gap:12px;height:100%}
+.place-top{display:flex;justify-content:space-between;gap:8px}.place-card h3{margin:0;font-size:20px}.meta{color:var(--muted);font-size:13px;margin-top:4px}.score{background:var(--accent2);color:var(--accent);font-weight:700;border-radius:999px;padding:7px 9px;height:max-content;white-space:nowrap}
+.desc{line-height:1.5}.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{background:#f0f2f0;padding:5px 8px;border-radius:999px;font-size:12px}
+.vote-row{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.vote-row button{font-size:19px;padding:8px}.vote-row button.chosen{background:var(--accent);color:#fff;border-color:var(--accent)}
+.comment-add{display:flex;gap:7px}.comment-add input{min-width:0;flex:1;border:1px solid var(--border);border-radius:10px;padding:10px}.comments{display:grid;gap:6px;font-size:13px;color:var(--muted)}
+.comments b{color:var(--text)}.ranking{margin-top:28px}.rank-row{display:grid;grid-template-columns:36px 1fr auto;gap:10px;padding:10px 0;border-bottom:1px solid var(--border)}
+.route{margin-top:16px}.route button{margin-top:14px}.route-path{margin-top:16px;padding:14px;border-radius:14px;background:var(--accent2);line-height:1.7}
+.footer{padding:32px 0 54px;color:var(--muted);font-size:13px}
+.backend-warning{background:#fff4d9;border:1px solid #ecd99e;border-radius:12px;padding:12px;margin:16px 0}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.cards{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.hero{padding-top:34px}#map{height:360px}}
+
+.discover{margin-top:34px}.experience-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.experience-tabs button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.experience-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.experience-card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:18px}
+.experience-card h3{margin:8px 0 7px}.experience-card p{margin:0;color:var(--muted);line-height:1.55}
+.exp-icon{font-size:30px}
+@media(max-width:900px){.experience-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.experience-grid{grid-template-columns:1fr}}
+
+.live-hint{font-size:13px;color:#cfe8dc;margin-top:8px}
