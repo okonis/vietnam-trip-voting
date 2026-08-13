@@ -1,6 +1,6 @@
-// Publiczne dane klienta Supabase. Wklej je z Project Settings -> API.
-// UWAGA: używaj tylko Publishable key / anon key. Nigdy service_role ani secret key.
+// Publiczne dane klienta Supabase. Publishable key jest przeznaczony do użycia w przeglądarce.
+// Nigdy nie umieszczaj tutaj secret key ani service_role.
 window.APP_CONFIG = {
-  SUPABASE_URL: "",
-  SUPABASE_PUBLISHABLE_KEY: ""
+  SUPABASE_URL: "https://quyksymztifhkugggoxl.supabase.co",
+  SUPABASE_PUBLISHABLE_KEY: "sb_publishable_wvHbz4oDIwkIOTgP4hZb8A_f_LjdeNX"
 };
